@@ -1,0 +1,38 @@
+{
+    "total_raw": 941,
+    "cleaned": 87,
+    "enriched": 760,
+    "domains": {
+        "Autre": 560,
+        "Énergie": 87,
+        "Technologie": 75,
+        "Finance": 34,
+        "Consommation": 4
+    },
+    "languages": {
+        "no": 5,
+        "it": 173,
+        "en": 143,
+        "zh-cn": 74,
+        "de": 9,
+        "ja": 97,
+        "ko": 111,
+        "da": 3,
+        "fr": 71,
+        "pl": 2,
+        "ca": 8,
+        "ro": 35,
+        "unknown": 5,
+        "sv": 2,
+        "id": 5,
+        "nl": 3,
+        "so": 3,
+        "es": 2,
+        "zh-tw": 1,
+        "tl": 3,
+        "af": 1,
+        "fi": 1,
+        "pt": 2,
+        "cy": 1
+    }
+}

@@ -1,0 +1,65 @@
+/* src/styles/StockBubble.css */
+.stock-bubble-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(10, 10, 10, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 50;
+}
+
+.stock-bubble {
+  background-color: #1f1f1f;
+  color: white;
+  border-radius: 12px;
+  padding: 20px;
+  width: 500px;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+.bubble-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #333;
+  margin-bottom: 10px;
+}
+
+.bubble-header h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  color: #ff5555;
+}
+
+.bubble-body {
+  font-size: 0.95rem;
+}
+
+.bubble-section {
+  margin-top: 10px;
+}
+
+.bubble-section strong {
+  color: #76b3fa;
+}
+
+.snippet {
+  font-style: italic;
+  color: #bbb;
+}

@@ -1,0 +1,168 @@
+/* ------------------- DATA UPLOADER ------------------- */
+
+.data-uploader {
+  background-color: var(--color-card-bg);
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  border: 2px dashed #333;
+  text-align: center;
+}
+
+.uploader-label {
+  display: block;
+  cursor: pointer;
+  background-color: var(--color-primary);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+  font-weight: 600;
+}
+
+.uploader-label:hover {
+  background-color: #2563eb;
+}
+
+.data-uploader input[type="file"] {
+  display: none;
+}
+
+.file-info {
+  margin-top: 10px;
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+}
+
+.error-message {
+  color: var(--color-error);
+  font-size: 0.85rem;
+  margin-top: 10px;
+}
+
+/* ------------------- PROMPT INPUT ------------------- */
+
+.prompt-input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: auto;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+.prompt-input textarea {
+  flex-grow: 1;
+  padding: 15px;
+  border: 1px solid #444;
+  background-color: #282828;
+  color: var(--color-text);
+  border-radius: 6px;
+  resize: none;
+  font-size: 1rem;
+  min-height: 50px;
+}
+
+/* --- Bouton trombone / dossier / X --- */
+.attach-button {
+  width: 42px;
+  height: 42px;
+  background-color: #1f1f1f;
+  border: 1px solid #333;
+  border-radius: 6px;
+  color: var(--color-text-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.attach-button:hover {
+  background-color: #2b2b2b;
+  color: var(--color-primary);
+}
+
+.attach-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+/* --- Bouton d’envoi --- */
+.prompt-input button[type="submit"] {
+  background-color: var(--color-primary);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prompt-input button[type="submit"]:hover:not(:disabled) {
+  background-color: #2563eb;
+}
+
+.prompt-input button[type="submit"]:disabled {
+  background-color: #555;
+  cursor: not-allowed;
+}
+
+/* ------------------- CONVERSATION HISTORY ------------------- */
+
+.conversation-history-container {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding-right: 10px;
+  margin-bottom: 15px;
+  word-wrap: break-word;          /* ✅ casse les mots longs */
+  overflow-wrap: break-word;      /* ✅ compatibilité moderne */
+}
+
+/* ------------------- MESSAGES ------------------- */
+
+.message-content {
+  white-space: pre-wrap;          /* ✅ garde les retours à la ligne */
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.message-content pre {
+  padding: 15px;
+  border-radius: 8px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+  border: 1px solid #333;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.message-user .message-type-label {
+  color: var(--color-primary);
+}
+
+.message-user pre {
+  background-color: #282828;
+  border-color: #444;
+}
+
+.message-model .message-type-label {
+  color: var(--color-success);
+}
+
+.message-model pre {
+  background-color: #222;
+  border-color: #383838;
+}

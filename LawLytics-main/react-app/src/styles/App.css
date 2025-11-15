@@ -1,0 +1,132 @@
+/* ------------------- DARK THEME: GLOBAL ------------------- */
+
+:root {
+  --color-primary: #3b82f6;
+  --color-background: #121212;
+  --color-card-bg: #1e1e1e;
+  --color-text: #ffffff;
+  --color-text-secondary: #a0a0a0;
+  --color-success: #10b981;
+  --color-error: #ef4444;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--color-text);
+  margin: 0.5rem 0;
+}
+
+/* ------------------- LAYOUT ------------------- */
+
+.datathon-app {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-background);
+}
+
+/* Remove the header */
+.app-header {
+  display: none;
+}
+
+.main-interface {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+#pie-chart {
+  position: absolute;
+  top: 50%;
+  left: calc(350px + (100% - 350px - 25vw) / 2);
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: auto;
+  z-index: 2;
+  text-align: center;
+}
+
+
+#pie-chart .portfolio {
+  color: var(--color-text);
+  font-size: 1.8rem;
+  /* ⬅️ increase this value */
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 25px;
+  position: relative;
+  right: 20px;
+  top: 70px;
+}
+
+
+/* Left section (dashboard + uploader) */
+.dashboard-container {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.file-upload-section {
+  max-width: 400px;
+  margin: 0 auto 20px auto;
+}
+
+/* ------------------- CHATBOT ZONE (right side) ------------------- */
+
+.conversation-zone {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 25vw;
+  height: 100vh;
+  background-color: var(--color-card-bg);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  overflow-y: auto;
+  z-index: 999;
+}
+
+
+
+/* ------------------- RESPONSIVE ------------------- */
+
+@media (max-width: 768px) {
+  .conversation-zone {
+    width: 100%;
+    height: 40vh;
+    bottom: 0;
+    top: auto;
+    border-left: none;
+    border-top: 2px solid var(--color-primary);
+  }
+
+  .main-interface {
+    flex-direction: column;
+  }
+}

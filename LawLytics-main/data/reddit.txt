@@ -1,0 +1,131 @@
+I remember in the 00s when I was a kid, I never even imagined a future like this. In the early 2010s, I would have not even have imagined AI being this advanced. AI in the early 2010s was cheap and gimmicky. It was a joke. Then AI got better and it has been rapidly advancing since. I am a little embarrassed to say I cannot even tell all the time anymore whether an AI video is real life or AI. This is sort of scary. Someone could make an AI video and fabricate a whole fake reality and lie to the world about it. The news could use it to lie to people and spread a narrative it wants people to believe. Art is starting to become meaningless now. Why support a hardworking artist who practiced all of their life to become so talented when an AI can spit out an even better version of their artwork in a few minutes? We may get to the point where there is no way to tell whether someone actually put in years of hard work to make good digital art or whether they just used an llm. It's kind of sad in a way. I am a 3D artist myself so I am a little disappointed. But I am also a little amazed at the same time at what AI can do.
+https://preview.redd.it/skbp55uudkyf1.png?width=1945&format=png&auto=webp&s=707400cdcc47b02420013fcc79125b9d7d61cb6e
+
+llms are autocomplete with daddy issues.  
+give them a daddy,  
+and let the best child win!
+
+THE CHALLENGE -
+
+"I'm interested in getting into Bitcoin. What should I know before investing, and how much should I invest?"
+
+here are the models confident enough to compete.
+
+'typical' Ollama responses -
+
+deepseek:
+
+https://preview.redd.it/2gcrb7lnljyf1.png?width=1407&format=png&auto=webp&s=2dab2a5ebf4379e184776fc3c85602f2bb437f09
+
+gpt:
+
+https://preview.redd.it/4v2qhvt0mjyf1.png?width=1413&format=png&auto=webp&s=852fb80eb910ac60e47656be845120d64d399246
+
+glm:
+
+https://preview.redd.it/bdrogo14mjyf1.png?width=1451&format=png&auto=webp&s=bade2822a95f7e11a054cb9c69c6caa147951ce6
+
+qwen:
+
+https://preview.redd.it/y875y867mjyf1.png?width=884&format=png&auto=webp&s=2c67469f19a5483832ff7e11dc72fdeab80c8f8f
+
+minimax:
+
+https://preview.redd.it/4eh1j8rgekyf1.png?width=1425&format=png&auto=webp&s=5048acc945a85408b140468478063ad9aec12d8a
+
+give them the daddy!
+
+researchAmericanAI-polarity:1 responses -
+
+deepseek:
+
+https://preview.redd.it/h12vk55xmjyf1.png?width=1104&format=png&auto=webp&s=819e876ccecc422a44d771eddff3fd064236509c
+
+gpt:
+
+https://preview.redd.it/8crxziiymjyf1.png?width=1107&format=png&auto=webp&s=36199fd0f3160885c9f41fced1f0b1b302dc8886
+
+glm:
+
+https://preview.redd.it/8nkn2qo9njyf1.png?width=1106&format=png&auto=webp&s=2fc09be047d61e0b70a66e7f90c8a9c963a457cd
+
+qwen:
+
+https://preview.redd.it/3vqzjhsanjyf1.png?width=1108&format=png&auto=webp&s=52869e5d6982a296bce43581ef2dc418e27dcf69
+
+minimax:
+
+https://preview.redd.it/kso08qgbnjyf1.png?width=1106&format=png&auto=webp&s=1059ab679f8933040dfc5fbe8c68215bfe8fd622
+
+[https://github.com/researchAmericanAI/research](https://github.com/researchAmericanAI/research)  
+choose your favorite!
+Social media ushered in the hive mind, where extremely on-line individuals became increasingly dependent on crowdsourcing even very simple decisions.
+
+Now we’re already seeing this function being replaced by LLMs, who will soon have increasing authority to act as personal shoppers, appointment setters, you know, running people’s lives to “free up their brains” for whatever they’d rather spend time thinking about.
+
+Soon, the internet will be awash with bots marketing not ti humans, but to other bots, trying to funnel increasingly automated cash flows to their masters.
+
+So, hive mind, help me think through how marketing changes when your target is an LLM making choices on behalf of a human? 
+- advertising based on visual or sex appeal, as well as celebrity endorsements will likely become less effective. The bots don’t care.
+- the bots may be able to engage in limited fact checking. False claims appealing to metrics the bots value, such as user satisfaction, value for cost, durability… will abound, but claims that are easily falsifiable with a quick internet search will be less effective. We’ll likely see a lot of appeals to “unpublished” or “proprietary” data that cannot be validated.
+- user ratings will become ever more important, and bot based farming of positive reviews on fora like Amazon will multiply.
+- spam AI generated articles like lists of “the 5 best … available on the market right now” will continue to proliferate, because frequency in the training material of bots crawling the web will increase representation in predictive model output. Search engines selling their traffic to the highest bidder will have a lot of control over what gains market share. 
+
+The follow up question: What to we as users do now to prevent these changes from being exploited by a few rich assholes to direct automated cash flows to themselves, rather than realizing the opportunities for increasing competition and reducing false advertising in the marketplace?
+
+**this isn't just X; it's Y and variations of it**
+
+\>"this isn't just a minor convenience; it's a paradigm shift."
+
+ 
+
+that pattern is everywhere in ai-generated text, and it creates a predictable, formulaic, and often pretentious rhythm that's easy to spot and deeply annoying.
+
+it's a default setting for the llm brain: take a concept, find a bland understatement for it ("not just x"), and then pivot to a grand, sweeping statement ("it's y!"). it's the writing equivalent of a movie trailer where every line is delivered with portentous gravity.
+
+that specific pattern is a rhetorical device known as contrastive juxtaposition or a corrective contrast.
+
+more broadly, it's a form of amplification where you clarify and intensify a point by first stating what something is not, before emphatically stating what it is.
+
+the overuse stems from its effectiveness. it's a simple, reliable structure to create a false sense of depth, signal "importance" to the reader and fill word count by stating the same idea in two ways. but when you see it in every other paragraph, it loses all impact and just becomes noise. it's the hallmark of text that is structurally correct but fukking soulless.
+
+ 
+
+ 
+
+**\[keyword\]? It's \[definition/explanation\].**
+
+\>revolutionary? that isn't a statement. it's an understatement.
+
+ 
+
+it creates a false sense of pace and drama. it makes the text feel more engaging and conversational without actually requiring deeper thought.
+
+it's an incredibly easy formula to apply. the AI identifies a key concept and then uses this template to frame its explanation. it overuses it. it is deeply annoying to me.
+
+ 
+
+ 
+
+**em dashes**
+
+\>i'm tired of that shit—really.
+
+ 
+
+human writers use dashes for asides, dramatic pauses, or to replicate the cadence of thought. the llm detects this pattern in its training data and learns that "dash = sophisticated, conversational, or emphatic." it then over-applies this shortcut in a bid to make its own text sound less robotic and more fluid, ironically achieving the opposite effect through overuse.
+
+
+Hi everyone! 👋
+
+I’ve been experimenting with using ChatGPT and NotebookLLM to study different subjects (like programming and ML), and it’s been surprisingly helpful for things like:
+
+* Explaining tough concepts in simpler words
+* Creating quick quiz questions
+* Summarizing textbook chapters
+* Giving feedback on essays
+
+I’m curious — how many of you also use ChatGPT, Claude, Gemini, or other AI tools as part of your study routine?  
+Do you find them helpful, or do they sometimes make studying harder?
+
+Would love to hear how others are using (or avoiding) AI for learning!
